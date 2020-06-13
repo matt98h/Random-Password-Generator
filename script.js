@@ -1,5 +1,7 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
+// Used a confirm instead of a prompt to have the page render more smoothly. 
+var promptUserToStartProgram = confirm("Click 'Generate Password' to begin creating your random password!");
 function writePassword(){
   // set password equal to the value of our generated password
   var password = generatePassword();
